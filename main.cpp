@@ -3,14 +3,9 @@
 using namespace std;
 
 int factorial(int x) {
-    int res = 1;
-    for (int i = 1; i <= x; i++) 
-    {
-        res *= i;
-    }
-    return res;
+    cout << "Critical BUG!" << endl;
+    return 0;
 }
-
 
 int main() {
     int res = factorial(20);
